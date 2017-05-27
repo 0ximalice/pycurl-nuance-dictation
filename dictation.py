@@ -1,3 +1,8 @@
+#
+# Copyright 2014 IMALIC3 All Rights Reserved.
+# Writen by IMALIC3
+#
+
 import pycurl
 import os.path
 import sys
