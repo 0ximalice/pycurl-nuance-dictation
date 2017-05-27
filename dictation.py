@@ -9,6 +9,14 @@ import sys
 
 def main():
     if sys.argv[1] is not None:
+        '''
+        Client Interface Parameters:
+        appId: 			You received this by email when you registered
+        appKey:	 		You received this as a 64-byte Hex array when you registered.
+         				If you provide us with your username, we can convert this to a 128-byte string for you.
+        id: 			Device Id is any character string. Typically a mobile device Id, but for test purposes, use the default value
+        '''
+
         appId = '<APP-ID>'
         appKey = '<APP-KEY>'
 
